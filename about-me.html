@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abut-sir-Done</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-about-me">
+     <header>
+        <h1>Welcome to Sir Done's Academy</h1>
+        <div class="hamburger" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html"style="font-size:20px;">Back to Home</a></li>
+                <li><a href="#contact" style="font-size:20px;">Contact</a>
+            </ul>
+        </nav>
+     </header>
+     <main>
+<div class="about-me-container">
+    <div class="about-me">
+        <h1>About my self</h1>
+        <p>
+           Hi, I’m Ahmad Ibrahim — widely known as Sir Done, and the founder of FJ Aibuks Global. I’m a passionate frontend developer with a sharp eye for design, user experience, and modern web technologies.
+Alongside running my own tech brand, I currently serve as a supervisor at M. Sarki Royal Services, where I lead operations with a focus on efficiency, innovation, and team growth.
+Academically, I’m a final-year Mathematics student at Umar Musa Yar’adua University, maintaining an impressive CGPA of 4.35. My background in mathematics strengthens my problem-solving skills and analytical thinking,
+ which I apply daily in both tech and business.
+Driven by a love for clean code, continuous learning, and making meaningful impact, I’m committed to building digital solutions that solve real problems and elevate user experience. 
+        </p>
+    </div>
+</div>
+     </main>
+      <footer>
+        <div class="contact-container" id="contact">
+            <h2 class="h2-contact">Contact us</h2>
+            <div class="card-contact">
+                <div class="contact-text1">
+                    <p>Phone: +234 9134093723 </p>
+                    <p>Phone: +234 9137362755</p>
+                    <p>Email:doctora4508@gmail.com</p>
+                    <p>Address: Katsina state Tech Street, Innovation City</p>
+                </div>
+                <div class="contact-text2">
+                    <p>Follow us on social media:</p>
+                    <p>Facebook: fb.com/fjaibuksglobal</p>
+                    <p>Twitter: twitter.com/fjaibuksglobal</p>
+                    <p>LinkedIn: linkedin.com/company/fjaibuksglobal</p>
+                </div>
+            </div>
+        </div>
+        <p class="p-footer">&copy; 2024 Sir Done. All rights reserved.</p>
+     </footer>
+     <script>
+  const hamburger = document.getElementById('hamburger');
+  const nav = document.querySelector('nav');
+
+  hamburger.addEventListener('click', () => {
+    hamburger.classList.toggle('active');
+    nav.classList.toggle('active');
+  });
+</script>
+</body>
+</html>
